@@ -8,3 +8,17 @@ CLI tool for extracting info from apk
 brew tap vacxe/tap
 brew install vacxe/tap/apkinfoextractor
 ```
+
+### Usage
+
+```
+apkinfoextractor <path to apk>
+```
+
+Result sample
+
+```
+{"package":"your.package.name","versionCode":5,"versionName":"1.0.1"}
+```
+
+Can be easily combined with JQ library
