@@ -9,6 +9,13 @@ brew tap vacxe/tap
 brew install vacxe/tap/apkinfoextractor
 ```
 
+#### Docker
+*Image contains JQ*
+
+```
+docker pull vacxe/apk-info-extractor
+```
+
 ### Usage
 
 ```
